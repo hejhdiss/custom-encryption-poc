@@ -1,6 +1,6 @@
 # Licensed under GPLV3.
 # @hejhdiss (Muhammed Shafin P)
-# Enhanced Metaclass PoC: DNA-Driven Mapping with Full Diagnostic Output
+# Metaclass PoC: DNA-Driven Mapping with Full Diagnostic Output
 
 import hashlib
 
@@ -158,4 +158,5 @@ if __name__ == "__main__":
     print("Decrypting... (Verifying Integrity)")
     dec = crypto.decrypt(enc)
     print(f"DECRYPTED RESULT: {dec}")
+
     print("="*60)
